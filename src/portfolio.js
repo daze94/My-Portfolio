@@ -7,9 +7,9 @@ const header = {
 const about = {
   photo:aboutpic,
   name: 'Gurwinder Sandhu',
-  role: 'Full stack developer',
+  role: 'Full Stack Web Developer',
   description:
-    'New bootcamp grad student living in Toronto, ON. Highly interested in web development and coding in general.',
+    'As I transition into the tech industry, I bring with me a track record of delivering exceptional results and fostering strong client relationships. I am excited about the possibility of leveraging technology to solve complex problems and create value. I am open to roles that challenge me and offer the opportunity to be at the forefront of technological advancements. I would love to connect and explore how we can collaborate to drive success in your organization.',
   social: {
     linkedin: 'https://www.linkedin.com/in/gurwinder-s-sandhu/',
     github: 'https://github.com/daze94/',
@@ -18,40 +18,25 @@ const about = {
 
 const projects = [
   {
-    name: 'Social Network API',
+    name: 'Job Junction',
     description:
-      'This project is an API for a social networking web application where users can share thoughts, react to friends thoughts, and create a friend list.',
-    stack: ['Javascript', 'Express.js', 'MongoDB'],
-    sourceCode: 'https://github.com/daze94/NoSQL---Social-Network-API.git',
+      'JobJunction is an advanced online platform designed to seamlessly connect job seekers with employers, facilitating the application process with the help of modern technologies such as React.js, GraphQL, and Material UI. It streamlines the job search and recruitment process through a user-friendly interface, offering a dynamic space for professional opportunities and career growth',
+    stack: ['Javascript', 'React', 'GraphQL', 'HTML', 'JSON'],
+    sourceCode: 'https://github.com/FaustCelaj/JobJunction',
   },
   {
-    name: 'PWA Text Editor',
+    name: 'Mr. Commodus',
     description:
-      'This project is a browser-based text editor that offers a seamless and efficient user experience, both online and offline. Built as a Progressive Web Application (PWA), the text editor ensures data persistence through IndexedDB, allowing users to reliably create and store notes or code snippets for later use.',
-    stack: ['Javascript', 'PWA', 'indexedDB','Node.js'],
-    sourceCode: 'https://github.com/daze94/PWA-TEXT-EDITOR.git',
+      'This project helps users find local concerts by city and province or state, displaying venues on a map for easy event selection. It the ability to filter concerts by genre, and integrates the Ticketmaster and Mapbox APIs for concert searching and mapping. The application enhances user experience by providing a visual and interactive way to discover and attend concerts.',
+    stack: ['Javascript', 'HTML', 'CSS'],
+    sourceCode: 'https://github.com/RecceRaven/ConcertFinder',
   },
   {
-    name: 'Employee Tracker',
+    name: 'Budgetor',
     description:
-      'This command-line application is a Content Management System (CMS) that manages a companys employee database. It allows non-developers to easily view and interact with information stored in databases. Built with Node.js, Inquirer, and MySQL, it enables the management of departments, roles, and employees to organize and plan business operations effectively.',
-    stack: ['SQL', 'Javascript', 'Node.js'],
-    sourceCode: 'https://github.com/daze94/SQL-Employee-Tracker.git',
-  },
-  {
-    name: 'E-Commerce',
-    description:
-      'This project is an E-Commerce back-end application that uses Object-Relational Mapping (ORM) to interact with a MySQL database. It employs Sequelize as the ORM and Express.js for the server framework. The application allows for easy management of a retail database, including products, categories, and tags.',
-    stack: ['SQL', 'Express.js', 'Sequelize'],
-    sourceCode: 'https://github.com/daze94/ORM-Assignment-.git',
-    
-  },
-  {
-    name: 'Note Taker',
-    description:
-      'Note Taker is an application that allows users to write, save, and delete notes. This application utilizes an Express.js back end and saves note data to a JSON file, offering a simple and effective way to organize thoughts and tasks.',
-    stack: ['Javascript', 'Node.js', 'JSON'],
-    sourceCode: 'https://github.com/daze94/Express.js-Assignment-11.git',
+      'Budgetor is a budgeting application that tracks personal finances, allowing users to monitor spontaneous spending, income, and expenses, and displays a net income summary for informed financial decisions. It features a savings section where users can set goals, track progress, and access saving tips. Additionally, it includes a compound interest calculator for forecasting savings growth.',
+    stack: ['MySQL', 'Javascript', 'Handlebars.js', 'JSON', 'HTML'],
+    sourceCode: 'https://github.com/Mikkal1/BUDGETOR',
   },
 ]
 
