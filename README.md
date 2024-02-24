@@ -1,4 +1,4 @@
-## React Portfolio
+## My Portfolio
 
 ## Description
 This React Portfolio is designed to showcase the work of web developers, highlighting their skills and projects using the latest web technologies. Built as a single-page application (SPA) with React, it provides a modern and efficient way to display content dynamically. The portfolio includes sections for About Me, Portfolio, Contact, and Resume, ensuring a comprehensive overview of the developer's capabilities.
